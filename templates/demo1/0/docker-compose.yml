@@ -1,4 +1,4 @@
-${owncloud_server}:
+owncloud:
   image: owncloud
   ports:
    - "80:80"

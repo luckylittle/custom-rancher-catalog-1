@@ -5,9 +5,5 @@
   uuid: owncloud-0
   minimum_rancher_version: v0.51.0
   questions:
-   - variable: owncloud_server
-      label: "OwnCloud server name"
-      type: "string"
-      required: true
 
-${owncloud_server}:
+owncloud:
